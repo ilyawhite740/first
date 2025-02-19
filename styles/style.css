@@ -13,6 +13,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  margin-bottom: 100px;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +30,51 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.title {margin: 0px;
+  margin-top: 20%;
+ /* Высота строки 96px, размер шрифта 102px, начертание шрифта — 600   */
+ font-size: 102px;
+ font-weight: 600;
+ line-height: 96px;
+ max-width: 730px;
+ margin-left: 64px;
+}
+/* Высота строки 25px, размер шрифта 18px, начертание шрифта нормальное */
+.text {
+  line-height: 25px;
+  font-size: 18px;
+  max-width: 388px;
+  margin-top: 250px;
+  margin-left: 64px;
+  margin-bottom: 30px;  
+}
+.logo{
+  margin-top: 30px;
+  margin-left: 64px
+}
+.image{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.Cube {
+  width: 568px;
+  height: 568px;
+  background-color: blue;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  z-index: -1;
+}
+.link{
+  text-decoration: none;
+  color: green;
+}
+.description {
+  display:grid;
+  grid-template-columns: 200px 1fr;
+  gap: 40px;
 }
